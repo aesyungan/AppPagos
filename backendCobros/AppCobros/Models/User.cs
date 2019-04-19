@@ -8,7 +8,6 @@ namespace AppCobros.Models
 {
     public class User
     {
-
         [Key]
         public int UsuarioId { get; set; }
         [Required]
