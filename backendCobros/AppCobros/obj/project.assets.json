@@ -12225,11 +12225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\development\\asp .net core\\AppCobros\\AppCobros\\AppCobros.csproj",
+      "projectUniqueName": "D:\\development\\asp .net core\\AppCobros\\backendCobros\\AppCobros\\AppCobros.csproj",
       "projectName": "AppCobros",
-      "projectPath": "D:\\development\\asp .net core\\AppCobros\\AppCobros\\AppCobros.csproj",
+      "projectPath": "D:\\development\\asp .net core\\AppCobros\\backendCobros\\AppCobros\\AppCobros.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "D:\\development\\asp .net core\\AppCobros\\AppCobros\\obj\\",
+      "outputPath": "D:\\development\\asp .net core\\AppCobros\\backendCobros\\AppCobros\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
