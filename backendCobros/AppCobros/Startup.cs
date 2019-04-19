@@ -49,6 +49,8 @@ namespace AppCobros
             {
                 op.UseSqlServer(Configuration.GetConnectionString("Pagos"));
             });
+            //cors
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,8 +60,12 @@ namespace AppCobros
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //cos
+            app.UseCors(builder => builder.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
             app.UseMvc();
+           
         }
     }
 }

@@ -12,3 +12,17 @@ D:\development\asp .net core\AppCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobr
 D:\development\asp .net core\AppCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.pdb
 D:\development\asp .net core\AppCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.dll
 D:\development\asp .net core\AppCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.pdb
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.deps.json
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.runtimeconfig.json
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.runtimeconfig.dev.json
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.dll
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\bin\Debug\netcoreapp2.1\AppCobros.pdb
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.csprojAssemblyReference.cache
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.csproj.CoreCompileInputs.cache
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.RazorAssemblyInfo.cache
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.RazorAssemblyInfo.cs
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.AssemblyInfoInputs.cache
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.AssemblyInfo.cs
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.RazorTargetAssemblyInfo.cache
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.dll
+D:\development\asp .net core\AppCobros\backendCobros\AppCobros\obj\Debug\netcoreapp2.1\AppCobros.pdb

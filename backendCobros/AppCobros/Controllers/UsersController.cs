@@ -24,22 +24,14 @@ namespace AppCobros.Controllers
         [HttpGet]
         public IEnumerable<User> Getusers()
         {
-            var usrs = _context.users.Include(u => u.paymentDetails).AsEnumerable<User>();
-            /*foreach (var item in usrs)
-            {
-                foreach (var item2 in item.paymentDetails)
-                {
-                    System.Diagnostics.Debug.Write(item2.CardNumber);
-                    Console.WriteLine("numero de targeta->" + item2.CardNumber);
-                }
-            }*/
-            return usrs;
+            
+            return _context.users;
         }
         // GET: api/All
         [HttpGet("all")]
         public IEnumerable<User> GetAllusers()
         {
-            return _context.users;
+            return _context.users.Include(u => u.paymentDetails).AsEnumerable<User>(); ;
             
         }
 
