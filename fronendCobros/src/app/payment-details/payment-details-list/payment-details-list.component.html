@@ -1,3 +1,19 @@
-<p>
-  payment-details-list works!
-</p>
+<table class="table table-hover">
+  <tr>
+    <th>Nombre</th>
+    <th>Numero</th>
+    <th>Expiracion</th>
+    <th>CVV</th>
+    <th>Eliminar</th>
+  </tr>
+  <tr *ngFor="let item of _PaymentDetailService.lst;">
+      <td  (click)="selectItem(item)">{{item.Usuario.Nombre}}</td> 
+    <td  (click)="selectItem(item)">{{item.CardOwnerName}}</td>
+     <td (click)="selectItem(item)">{{item.CardNumber}}</td>
+     <td (click)="selectItem(item)">{{item.ExpirationDate}}</td>
+     <td (click)="selectItem(item)">{{item.cvv}}</td>
+     <td class="">
+       <button (click)="eliminar(item.PMId)" class="btn btn-danger"> <i class="far fa-trash-alt"></i></button>
+     </td>
+  </tr>
+</table>

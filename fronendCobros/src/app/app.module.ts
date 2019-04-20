@@ -6,6 +6,8 @@ import { PaymentDetailsComponent } from './payment-details/payment-details.compo
 import { PaymentDetailsListComponent } from './payment-details/payment-details-list/payment-details-list.component';
 import { PaymentDetailComponent } from './payment-details/payment-detail/payment-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot() // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]

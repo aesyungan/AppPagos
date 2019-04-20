@@ -1,5 +1,11 @@
 <form #frm="ngForm" autocomplete="off" (submit)=" onSubmit(frm)">
+    <input [hidden]="true" #PMId="ngModel" name="PMId" [(ngModel)]="_PaymentDetailService.formData.PMId" class="form-control" >
   <div class="form-group">
+      <select required class="custom-select custom-select-sm form-control" name="user" #user="ngModel"  [(ngModel)]="_PaymentDetailService.formData.UsuarioId">
+          <option *ngFor="let us of _UserService.lst; " [value]="us.UsuarioId" >{{us.Nombre}}</option>
+        </select>
+  </div>
+    <div class="form-group">
     <div class="input-group">
       <div class="input-group-prepend">
         <div class="input-group-text bg-white">

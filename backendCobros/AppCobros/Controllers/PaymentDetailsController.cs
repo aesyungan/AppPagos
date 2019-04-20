@@ -27,6 +27,12 @@ namespace AppCobros.Controllers
         {
             return _context.PaymentDetails;
         }
+        // GET: api/PaymentDetails
+        [HttpGet("show/all")]
+        public IEnumerable<PaymentDetail> GetAllPaymentDetails()
+        {
+            return _context.PaymentDetails.Include(p=>p.Usuario).AsEnumerable();
+        }
 
         // GET: api/PaymentDetails/5
         [HttpGet("{id}")]
